@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>สำหรับคุณ 💖</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 25px;
+  max-width: 380px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  animation: fadeIn 1.5s ease;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: #ff4d6d;
+}
+
+p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #ff4d6d;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+ <img src=https://i.ibb.co/s9tbgm9b/Screenshot-2026-03-25-18-25-08-41-1c337646f29875672b5a61192b9010f9.jpg">
+
+  <h1>🎉 ยินดีด้วย 🎉</h1>
+
+  <p>
+    สำหรับคุณที่เกิดวันที่ <span class="highlight">13 เมษายน 2551</span>
+  </p>
+
+  <p>
+    พรุ่งนี้เป็นวันปัจฉิมแล้วนะ 😊<br>
+    เราอยากให้คุณลองสแกน QR นี้เข้ามาเจอข้อความนี้
+  </p>
+
+  <p>
+    ขอให้คุณดูแลตัวเองดีๆ<br>
+    รักตัวเองให้มากๆนะ 💖<br>
+    และขอให้คุณโชคดี
+  </p>
+
+  <p>
+    ขอให้คุณมีความสุขเสมอ 🙂
+  </p>
+
+</div>
+
+</body>
+</html>
